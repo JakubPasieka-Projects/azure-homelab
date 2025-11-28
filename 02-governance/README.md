@@ -6,11 +6,8 @@ Establish Azure governance foundations: management groups, naming conventions, r
 ## Steps Planned
 
 ### 1. Create Management Group hierarchy
-- mg-root
 - mg-platform
-- mg-workloads
-- mg-sandbox
-- Assign subscription to `mg-root`
+- Assign subscription to `Tenant Root Group`
 
 ### 2. Define naming conventions (recommended)
 - Resource groups: rg-<service>-<purpose>
@@ -25,14 +22,12 @@ Establish Azure governance foundations: management groups, naming conventions, r
 - rg-compute
 - rg-storage
 - rg-security
-- rg-sandbox
 
 ### 4. Create required Tags
 Organization-wide tags:
 - **Owner**
 - **Environment** (Prod, Dev, Lab)
 - **CostCenter**
-- **Criticality**
 
 Apply tags at:
 - Management group level
