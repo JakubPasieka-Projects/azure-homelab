@@ -47,16 +47,6 @@ Name: **pip-core-mgmt**
 
 ---
 
-### 4. Deploy Azure Bastion (Recommended)
-Deploy in:
-- VNet: vnet-core  
-- Subnet: AzureBastionSubnet (10.0.10.0/27)  
-- RG: rg-core-network  
-
-This allows secure VM access without exposing RDP/SSH.
-
----
-
 ### 5. Private DNS Zones
 Create:
 - private.lab.local
@@ -65,17 +55,6 @@ Link to VNet-Core with auto-registration enabled.
 
 Add a test A record:
 - vm-test → 10.0.1.10
-
----
-
-### 6. Test Name Resolution
-Deploy a simple VM:
-- vm-test-01  
-- snet-management  
-- ping internal DNS names  
-- lookup private.lab.local  
-
-Document the results.
 
 ---
 
@@ -89,22 +68,6 @@ If you have a second VNet (vnet-sandbox):
 
 ---
 
-### 8. Configure Service Endpoints & Private Endpoints
-For:
-- Storage account
-- Key Vault
-- Web App (optional)
+## Outcome
+(Write summary once complete)
 
-Test connectivity with:
-- NSG flow logs  
-- Log Analytics queries  
-- Private DNS resolution  
-
----
-
-## Folder Structure
-
-Add all networking screenshots here:
-`/03-networking/screenshots/`
-
-Suggested filenames:
