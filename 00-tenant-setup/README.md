@@ -5,7 +5,7 @@ Create a clean, cost-controlled Azure tenant to support all Azure labs.
 
 ## Requirements
 - Azure Pay-As-You-Go subscription  
-- 1× Microsoft Entra ID P1 licence (assigned to admin)  
+- 1× Microsoft Entra ID P2 licence (assigned to admin)  
 - Budget limit configured (£20/month recommended)
 
 ## Steps Completed
