@@ -14,7 +14,7 @@ Create a clean, cost-controlled Azure tenant to support all Azure labs.
 3. Disabled Security Defaults.
 
 ## Notes
-Screenshots used during the build will go into:
+Screenshots used during the build located in:
 `/00-tenant-setup/screenshots/`
 
 ## Next Steps
